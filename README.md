@@ -1,0 +1,1 @@
+This repository contains code related to an algorithm for estimating the power spectral density of continous broadband disturbances in audio signals.
