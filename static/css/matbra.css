@@ -1,0 +1,49 @@
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+.heading-space {
+    margin-bottom: 20px;
+}
+
+.heading-above {
+    margin-top: 30px;
+}
+
+.matbra-table td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+h4 {
+    margin-top: 30px;
+}
+
+/* table.matbra {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 10;
+    border-color: gray;
+}
+*/

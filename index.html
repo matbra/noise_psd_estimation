@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Impulse Noise Detection</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/matbra.css" rel="stylesheet">
+
+    <!-- Bokeh -->
+    <link rel="stylesheet" href="/static/js/bokeh.css" type="text/css" />
+    <script type="text/javascript" src="/static/js/bokeh.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- bokeh scripts -->
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12"><h1>Impulsive Disturbances in Audio Archives:</br>Signal Classification for Automatic Restoration</h1></div>
+            <div class="col-xs-12" style="margin-bottom:50px;"><h4 style="margin-top:0px;">Demonstration Signals Accompanying the Article</h4></div>
+        </div>
+
+        <div class="row">
+            
+
+<div class="col-sm-3">
+    <div class="sidebar-nav">
+        <div class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="visible-xs navbar-brand">Sidebar menu</span>
+            </div>
+            <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Abstract<span class="sr-only">(current)</span></a></li>
+                    <li><a href="/sound_examples/"><span class="glyphicon glyphicon-headphones" aria-hidden="true"><div class="horizontalgap" style="width:20px"></div></span>Sound Examples</a></li>
+                    <li><a href="/peaq_results/"><span class="glyphicon glyphicon-equalizer" aria-hidden="true"><div class="horizontalgap" style="width:20px"></div></span>PEAQ Examples</a></li>
+                    <!-- <ul class="nav navbar-nav">
+                        <li><a href="bla.html">Test</a></li>
+                        <li>Test 2</li>
+                    </ul> -->
+                    <li><a href="/resources/"><span class="glyphicon glyphicon-floppy-save" aria-hidden="true"><div class="horizontalgap" style="width:20px"></div></span>Resources</a></li>
+                    <li><a href="/contact/"><span class="glyphicon glyphicon-envelope" aria-hidden="true"><div class="horizontalgap" style="width:20px"></div></span>Contact</a></li>
+                    <li><a href="/imprint/"><div class="horizontalgap" style="width:20px"></div>Impressum / Datenschutzerklärung</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <div class="col-sm-9">
+                
+<h3>Abstract</h3>
+<div><p>This article presents a new algorithm to classify whether each one second long frame of an audio recording contains impulsive disturbances or not. The developed classification algorithm is based on supervised learning and appropriate prewhitening of the input signal. It is shown that existing impulse restoration algorithms suffer from degradation of the desired signal if the input SNR is high and if no manual parameter adjustment is possible, which makes automatic restoration of large amounts of diverse archive audio material infeasible. In this context, the proposed classification algorithm can be used as a supplement to an existing impulse restoration algorithm to alleviate this drawback. An evaluation with a large number of test signals shows that a high classification accuracy can be achieved, making fully automatic impulse restoration possible.</p></div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/audio_player.js"></script>
+    <script language="javascript" type="text/javascript">
+    window.onload = function() { convert_dom(); };
+    convert_dom();
+    </script>
+</body>
+</html>
