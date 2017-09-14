@@ -57996,13 +57996,9 @@ StringTickFormatter = (function(superClass) {
     var i, j, labels, ref;
     labels = new Array(ticks.length);
     for (i = j = 0, ref = ticks.length; 0 <= ref ? j < ref : j > ref; i = 0 <= ref ? ++j : --j) {
-      if (i === ticks.length-1) {
-        console.log(this.FixedTicker);
-        labels[i] = "∞";
-      } else {
-        labels[i] = ticks[i].toString();
+      labels[i] = ticks[i].toString();
       }
-    }
+
     return labels;
   };
 

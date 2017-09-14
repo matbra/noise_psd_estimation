@@ -31,7 +31,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12"><h1>Impulsive Disturbances in Audio Archives:</br>Signal Classification for Automatic Restoration</h1></div>
+            <div class="col-xs-12"><h1> Broadband Noise Disturbances in Audio Archives:<br>Detection for Automatic Restoration</h1></div>
             <div class="col-xs-12" style="margin-bottom:50px;"><h4 style="margin-top:0px;">Demonstration Signals Accompanying the Article</h4></div>
         </div>
 
@@ -53,13 +53,13 @@
             <div class="navbar-collapse collapse sidebar-navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="/noise_psd_estimation/">Abstract<span class="sr-only">(current)</span></a></li>
-                    <li><a href="/noise_psd_estimation/sound_examples/"><span class="glyphicon glyphicon-headphones" aria-hidden="true"><div class="horizontalgap" style="width:20px"></div></span>Sound Examples</a></li>
+                    
                     <li><a href="/noise_psd_estimation/peaq_results/"><span class="glyphicon glyphicon-equalizer" aria-hidden="true"><div class="horizontalgap" style="width:20px"></div></span>PEAQ Examples</a></li>
                     <!-- <ul class="nav navbar-nav">
                         <li><a href="bla.html">Test</a></li>
                         <li>Test 2</li>
                     </ul> -->
-                    <li><a href="/noise_psd_estimation/resources/"><span class="glyphicon glyphicon-floppy-save" aria-hidden="true"><div class="horizontalgap" style="width:20px"></div></span>Resources</a></li>
+                    
                     <li><a href="/noise_psd_estimation/contact/"><span class="glyphicon glyphicon-envelope" aria-hidden="true"><div class="horizontalgap" style="width:20px"></div></span>Contact</a></li>
                     <li><a href="/noise_psd_estimation/imprint/"><div class="horizontalgap" style="width:20px"></div>Impressum / Datenschutzerklärung</a></li>
                 </ul>
@@ -71,7 +71,7 @@
             <div class="col-sm-9">
                 
 <h3>Abstract</h3>
-<div><p>This article presents a new algorithm to classify whether each one second long frame of an audio recording contains impulsive disturbances or not. The developed classification algorithm is based on supervised learning and appropriate prewhitening of the input signal. It is shown that existing impulse restoration algorithms suffer from degradation of the desired signal if the input SNR is high and if no manual parameter adjustment is possible, which makes automatic restoration of large amounts of diverse archive audio material infeasible. In this context, the proposed classification algorithm can be used as a supplement to an existing impulse restoration algorithm to alleviate this drawback. An evaluation with a large number of test signals shows that a high classification accuracy can be achieved, making fully automatic impulse restoration possible.</p></div>
+<div><p>This article presents a new algorithm to estimate the power spectral density of stationary broadband noise disturbances in audio recordings. The developed estimation algorithm is an extension of quantile-based estimation algorithms that takes into account assumptions about the distribution of short-time Fourier coefficients of the noise disturbance. Evaluation with a large number of test signals shows that a high detection accuracy can be obtained, outperforming state-of-the-art algorithms, allowing for unsupervised operation and thus constituting an important part of a fully automatic broadband noise disturbance restoration system.</p></div>
 
             </div>
 
