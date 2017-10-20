@@ -16,7 +16,7 @@ var convert_dom = function() {
 		var html_string = '<audio id="' + cur_player_id + '" src="' + audio_tags[i].getAttribute('audio_url') + '" data-status="stopped" onended="onEnded(' + cur_button_id + ')" onpause="onEnded(' + cur_button_id + ')"></audio>';
 		html_string += '<button id="' + cur_button_id + '" data-player="' + cur_player_id + '" class="btn btn-default" onclick="play(this);"><i class="glyphicon glyphicon-play"></button>';
 		audio_tags[i].innerHTML = html_string;
-		console.log(audio_tags[i]);
+//		console.log(audio_tags[i]);
 	}
 };
 
@@ -34,9 +34,6 @@ var play = function(element) {
 	//console.log(player_id);
 	target_player = document.getElementById(player_id);
 	//console.log(target_player);
-
-	//is_paused = target_player.paused;
-	//console.log(is_paused); always true, whatever... -> ??
 
 	cur_status = target_player.getAttribute('data-status');
 
