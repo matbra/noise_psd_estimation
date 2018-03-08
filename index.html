@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Impulse Noise Detection</title>
+    <title>Automatic Noise PSD Estimation</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/noise_psd_estimation/static/favicon.ico" type="image/x-icon">
@@ -31,7 +31,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12"><h1> Broadband Noise Disturbances in Audio Archives:<br>Detection for Automatic Restoration</h1></div>
+            <div class="col-xs-12"><h1>Automatic Noise PSD Estimation for Archive Audio Restoration</h1></div>
             <div class="col-xs-12" style="margin-bottom:50px;"><h4 style="margin-top:0px;">Demonstration Signals Accompanying the Article</h4></div>
         </div>
 
@@ -71,7 +71,7 @@
             <div class="col-sm-9">
                 
 <h3>Abstract</h3>
-<div><p>This article presents a new algorithm to estimate the power spectral density of stationary broadband noise disturbances in audio recordings. The developed estimation algorithm is an extension of quantile-based estimation algorithms that takes into account assumptions about the distribution of short-time Fourier coefficients of the noise disturbance. Evaluation with a large number of test signals shows that a high detection accuracy can be obtained, outperforming state-of-the-art algorithms, allowing for unsupervised operation and thus constituting an important part of a fully automatic broadband noise disturbance restoration system.</p></div>
+<div><p>This paper presents a novel algorithm to estimate the power spectral density (PSD) of stationary broadband noise disturbances in audio recordings. The proposed algorithm estimates the noise PSD as the mean value of an exponential distribution which corresponds to the truncated periodogram coefficients of the disturbed audio signal. An evaluation with a large number of speech and music test signals shows that a high PSD estimation accuracy can be obtained for a wide range of signal-to-noise ratios, allowing for unsupervised operation and thus constituting an important part of a fully automatic broadband noise restoration system for audio archives.</p></div>
 
             </div>
 
